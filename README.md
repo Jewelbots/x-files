@@ -32,5 +32,6 @@ app.createArchive('./test').then((file) => {
 	});
 }, (error) => {
 	console.log(`- Archive failed: ${error}`);
-})
+});
+
 ```
