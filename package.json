@@ -7,6 +7,9 @@
     "preinstall": "gulp check-dep",
     "test": ""
   },
+  "engines": {
+    "node": "^4.0.0"
+  },
   "keywords": [
     "xcode",
     "ios",
