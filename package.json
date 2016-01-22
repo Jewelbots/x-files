@@ -1,0 +1,20 @@
+{
+  "name": "x-files",
+  "version": "0.0.0",
+  "description": "Generate Xcode Archives",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "gulp check-dep",
+    "test": ""
+  },
+  "keywords": [
+    "xcode",
+    "ios",
+    "osx",
+    "archive",
+    "distribution"
+  ],
+  "author": "Emily Rose <emily@jewelbots.com>",
+  "license": "BSD-3-Clause",
+  "dependencies": { }
+}
