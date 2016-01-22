@@ -17,7 +17,7 @@ The following example creates an `.ipa` file from an existing Xcode project (`.x
 This `.ipa` file can then be deployed to a device or distributed however you like.
 
 ```js
-let xFiles = require('./index');
+let xFiles = require('x-files');
 let app = new xFiles(
 	'FancyApp', // Xcode Scheme
 	'/Users/FancyPerson/FancyApp.xcodeproj' // Xcode Project
