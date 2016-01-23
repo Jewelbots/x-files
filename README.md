@@ -2,13 +2,9 @@ X-Files
 -------
 Archive & Export Xcode Projects With Poise and Grace
 
-### Known Issues
-When using this library in conjunction with something like `ios-deploy`, ensure that you have removed any copies of the app that may have been previously installed via iTunes. Any copies left in iTunes will silently overwrite the version generated with x-files and installed with any tool such as `ios-deploy`, `libimobiledevice`, or similar.
-
-Specifying which provisioning profile to use is not yet supported. This will be fixed.
-
 ### Requirements
-This module requires a modern version of Node.js (>=4.x)
+This module requires a modern version of Node.js (>=4.x).
+As one may expect, you will also need Xcode installed and available via `$PATH`.
 
 ### Examples
 
@@ -35,3 +31,9 @@ app.createArchive('./test').then((file) => {
 });
 
 ```
+
+### Known Issues
+When using this library in conjunction with something like `ios-deploy`, ensure that you have removed any copies of the app that may have been previously installed via iTunes. Any copies left in iTunes will silently overwrite the version generated with x-files and installed with any tool such as `ios-deploy`, `libimobiledevice`, or similar.
+
+Specifying which provisioning profile to use is not yet supported. This will be fixed.
+
