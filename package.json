@@ -3,10 +3,7 @@
   "version": "0.0.0",
   "description": "Generate Xcode Archives",
   "main": "index.js",
-  "scripts": {
-    "preinstall": "gulp check-dep",
-    "test": ""
-  },
+  "scripts": { },
   "engines": {
     "node": "^4.0.0"
   },
