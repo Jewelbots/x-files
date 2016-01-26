@@ -57,6 +57,12 @@ class xFiles {
 
 	exportArchive(archive, destination) {
 		return new Promise((resolve, reject) => {
+			if (archive.indexOf('.xcarchive') === -1) {
+				archive = archive + '.xcarchive';
+			}
+			if (destination.indexOf('.ipa') === -1) {
+				destination = destination + '.ipa';
+			}
 			let args = [
 				'-exportArchive',
 				'-exportFormat', 'ipa',
