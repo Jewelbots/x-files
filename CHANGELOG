@@ -1,0 +1,5 @@
+CHANGELOG
+-------
+
+2016.01.26 - v0.0.2 - Now always adding file extensions if not provided.
+2016.01.25 - v0.0.1 - Initial release. Basic functionality working.
