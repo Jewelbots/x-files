@@ -36,3 +36,6 @@ node_modules
 *.xcodeproj
 *.xcarchive
 *.ipa
+
+# Development files
+demo*
